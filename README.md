@@ -1,10 +1,11 @@
-# Proyecto_formulario<a name="readme-top"></a>
+# Proyecto_formulario
+<a name="readme-top"></a>
 
 <div align="center">
 
 <img src="logo.png" alt="logo" width="140" height="auto" style="border-radius:50%"   />
 <br/>
-<h3><b>FORMULARIO WEBPACK</b>
+<h3><b>DOCUMENTACION PROYECTO</b>
 
 </div>
 
@@ -12,7 +13,7 @@
 - [Proyecto\_formulario](#proyecto_formulario)
 - [✅ TABLE OF CONTENTS](#-table-of-contents)
 - [📖 \[NETWORK SCRIPT PROJECT\]](#-network-script-project)
-  - [⚒️ Build With ](#️-build-with-)
+  - [⚒ Build With ](#-build-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
@@ -23,7 +24,7 @@
     - [Run Test](#run-test)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
-  - [🕹️ Future Features ](#️-future-features-)
+  - [🕹 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐ Show your Support](#-show-your-support)
   - [👏 Acknowledgements ](#-acknowledgements-)
@@ -31,34 +32,34 @@
 
 # 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
 
-**[formulario-webpack** This is a first project in SENA'S   SysAdmin Network Curriculum
+*[formulario-webpack* Durante este trimestre se desarrolló un formulario web interactivo como proyecto práctico. 
 
-## ⚒️ Build With <a name="built-with"></a>
+## ⚒ Build With <a name="built-with"></a>
 
 <p>
-This Projects was built using:
-HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
+Este proyecto se creó utilizando: 
+HTML, AZURE y JS, GIT, GITHUB
 </p>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <li> HTML </li>
-<li> MARKDOWN </li>
-<li> SHELLSCRIPT </li>
+<li> AZURE </li>
+<li> JS </li>
 <li> GIT </li>
 <li> GITHUB </li>
 
 <details>
-<summary> Client </summary>
+<summary> AZURE </summary>
     <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>    
+    <li><a href="app-formula-dzhzbdh3cdhjh6dh.brazilsouth-01.azurewebsites.net">AZURE</a></li>    
     </ul>
 </details>
 
 <details>
-<summary>Markdown</summary>
+<summary>GITHUB</summary>
 <ul>
-<li><a href="https://markdown.es/sintaxis-markdown/">Markdown</a></li>
+<li><a href="https://github.com/lisseth077/FORM-LINTERSS.git">GITHUB</a></li>
 </ul>
 </details>
 
@@ -78,40 +79,62 @@ To run this project you need the following tools:
 
 - [VS Code]
 - [Git and GitHub]
-- [ShellScript ]
+- [Microsoft azure ]
 
 ### Setup
 
 Clone this respository  to your desired folder:
 
-```sh
-cd NEWTORK-SCRIPT
-git clone https://github.com/alyconr/Network-Shell-Script-.git
-```
+
+cd GITHUB
+git clone https://github.com/lisseth077/FORM-LINTERSS.git
+
 ### Install
 
-Install This project with:
+```npm 
+# Instala Lighthouse CI globalmente (versión específica 0.7.x)
+npm install -g @lhci/cli@0.7.x
+```
 
-```sh
-    ./networkScript.sh
+
+```npm
+# Inicializa un proyecto npm
+npm init -y
+```
+
+```npm
+# Instala Stylelint y plugins como dependencias de desarrollo
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+
+```npm
+# Instala ESLint y configuración Airbnb para proyectos con Babel
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 ```
 
 ### Usage 
 
 To run the project, execute the following command:
 
-```pyhton
-./networkScript.sh
+```npm
+#corre el proyecto npm
+./npm start
 ```
+
 
 ### Run Test
 
 To run test, run the following command or endpoint:
 
-```sh
-python -m unittest test_module.TestClass
+```npx stylelint "**/*.{css,scss}"
+  # Revisa que el código CSS/SCSS siga buenas prácticas y estilo correcto
 ```
-
+```npx hint .
+  #Analiza archivos HTML para detectar errores o malas prácticas
+```
+``` npx eslint .
+  #Revisa tu código JavaScript para encontrar errores y mejorar su calidad
+```
 
 ### Deployment
 
@@ -121,38 +144,28 @@ Deploy using your local enviroment
 
 ## 👥 Authors <a name="authors"></a>
 
-Jeysson Contreras
+Laura Buitrago
 
-🧑🏻‍💻 **Author 1**
+🧑🏻‍💻 *Author 1*
 
- - GitHub: [@alyconr](https://github.com/alyconr)
- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras)
+ - GitHub: [@lisseth077](https://github.com/lisseth077)
 
+## 🕹 Future Features <a name="future-features"></a>
 
-## 🕹️ Future Features <a name="future-features"></a>
+- [ ] *[Ping]*
+- [ ] *[Nslookup]*
+- [ ] *[BandWitdth Test]*
 
-- [ ] **[Ping]**
-- [ ] **[Nslookup]**
-- [ ] **[BandWitdth Test]**
-
-
-## 🤝 Contributing <a name="contributing"></a>
-
-
-Contributions, issues, and  feature requests are welcome!
-
-Feel free tp check the [issues page](https://github.com/alyconr/Network-Shell-Script-/issues)
 
 
 ## ⭐ Show your Support
 
-Wrrite a message to encourage readers to support your project
-
-If you like this project please give one start
+Espero sea un buen proyecto y puedas tomarlo como referencia.
 
 ## 👏 Acknowledgements <a name="acknowledgements"></a>
 
-I would like to thank my learning teammates  and Sena Instructor
+Agradezco a mis compañeros e instructor.
+
 
 ## 📃 License <a name="license"></a>
 
